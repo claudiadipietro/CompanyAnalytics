@@ -1,0 +1,32 @@
+{
+  "name": "companyanalytics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "test": "set NODE_OPTIONS= --experimental-vm-modules && jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/claudiadipietro/CompanyAnalytics.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/claudiadipietro/CompanyAnalytics/issues"
+  },
+  "homepage": "https://github.com/claudiadipietro/CompanyAnalytics#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "jest": "^28.1.1",
+    "supertest": "^6.2.3"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.16",
+    "express": "^4.18.2",
+    "mongoose": "^6.4.4",
+    "validator": "^13.7.0"
+  }
+}
