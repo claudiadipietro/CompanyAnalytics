@@ -15,9 +15,9 @@ The tech stack used for this project is:
 
 The companies are stored in a local MongoDB database. It has three endpoints to retrieve the companies information, which are:
 
-- returnBySize: this endpoint returns in ascending order the companies by their size, from bigger to smaller.
-- returnByCreationDate: this endpoint returns in ascending order the companies creation date, from the newest company to the oldest.
-- summary: this endpoint returns the summary of the companies by industry, by range of size and by range of creation date.
+- http://localhost:8080/api/returnBySize: this endpoint returns in ascending order the companies by their size, from bigger to smaller.
+- http://localhost:8080/api/returnByCreationDate: this endpoint returns in ascending order the companies creation date, from the newest company to the oldest.
+- http://localhost:8080/api/summary: this endpoint returns the summary of the companies by industry, by range of size and by range of creation date.
 
 ## Installation
 
